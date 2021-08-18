@@ -1,0 +1,57 @@
+1. month_card_spending - 음식 관련 카드소비 데이터
+- m: 년월(월-년)
+- emd_cd: 읍면동 코드
+- emd_nm: 읍면동명
+- mct_cat_cd: 음식 관련 업종 코드(대분류)
+- mct_cat_nm: 음식 관련 업종명(대분류)
+- sum_use_cnt: 결제 건수 합
+- sum_use_amt: 결제 금액 합
+
+2. month_food_waste - 음식물쓰레기 배출 데이터
+- m: 년월(월-년)
+- emd_cd: 행정동 코드
+- emd_nm: 행정동명
+- count_num: 개수 카운트
+- sum_em_cnt: 배출 건수 합
+- sum_em_g: 배출량 합
+
+3. month_korean - 내국인 유동인구 데이터
+- m: 년월(월-년)
+- resd: 거주지역 행정구역
+- sex: 성별
+- age: 연령대
+- emd_cd: 행정동 코드
+- emd_nm: 행정동명
+- count_num: 개수 카운트
+- sum_resd_pop_cnt: 거주 인구 합
+- sum_work_pop_cnt: 근무 인구 합
+- sum_visit_pop_cnt: 방문 인구 합
+
+4. month_long_term_frgn - 장기체류 외국인 유동인구 데이터
+- m: 년월(월-년)
+- nationality: 외국인 국적코드
+- emd_cd: 행정동 코드
+- emd_nm: 행정동명
+- count_num: 개수 카운트
+- sum_resd_pop_cnt: 거주 인구 합
+- sum_work_pop_cnt: 근무 인구 합
+- sum_visit_pop_cnt: 방문 인구 합
+
+5. month_resident_pop - 거주 인구 데이터
+- base_year: 년
+- base_month: 월
+- sex: 성별
+- emd_cd: 읍면동 코드
+- emd_nm: 읍면동명
+- count_num: 개수 카운트
+- sum_resid_pop_cnt: 주민등록 거주 인구 합
+- sum_foreign_pop_cnt: 외국인 거주 인구 합
+- sum_total_pop_cnt: 총 거주 인구 합
+
+6. month_short_term_frgn - 단기체류 외국인 유동인구 데이터
+- m: 년월(월-년)
+- nationality: 외국인 국적코드
+- count_num: 개수 카운트
+- emd_cd: 행정동 코드
+- emd_nm: 행정동명
+- visit_pop_cnt: 방문인구 합
